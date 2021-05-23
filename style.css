@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: burlywood;
+}
+
+.nav-site{
+    background-color: aquamarine;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+}
+
+navbar > .nav-site > a{
+    padding: 0 20px;
+}
+
+h1 {
+    margin-top: 50px;
+    color: mediumpurple;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.btn {
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.btn.success{
+    background-color: greenyellow;
+}
+
+.btn.error{
+    background-color: red;
+}
+
+label {
+    font-size: 30px;
+}
+
+.div-input label{
+    color: green;
+}
+
+.caixaum{
+    position: relative;
+    background-color: aqua;
+    height: 20px;
+    width: 60px;
+}
+.caixadois{
+    position: relative;
+    background-color: blueviolet;
+    height: 20px;
+    width: 60px;
+    left: 70px;
+    bottom: 20px;
+}
+
+body > .birile{
+    color: blue;
+}
